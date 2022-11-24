@@ -43,19 +43,64 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>React.js </h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Angular.js </h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Gatsby.js </h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Drupal </h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>HTML5 & CSS3 </h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Bootstrap & Tailwind Css </h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <h5>Material UI </h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Django</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>.NET Core</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Node.js</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>MySQL</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Postgresql</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
                   <h5>Logo Design</h5>
                 </div>
                 <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Brand Identity</h5>
+                </div>
+
+                <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>Full Stack Development</h5>
                 </div>
               </Carousel>
             </div>

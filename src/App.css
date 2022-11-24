@@ -105,6 +105,14 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 18px;
   opacity: 0.75;
 }
+.active-navbar-link {
+  font-weight: 400;
+  color: rgb(218, 94, 12) !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+}
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;

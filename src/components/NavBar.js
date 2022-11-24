@@ -13,9 +13,9 @@ export default function NavBar() {
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
-        setScrolled = true;
+        setScrolled(true);
       } else {
-        scrolled = false;
+        setScrolled(false);
       }
     };
     window.addEventListener("scroll", onScroll);
@@ -55,7 +55,7 @@ export default function NavBar() {
               Skills
             </Nav.Link>
             <Nav.Link
-              href="#projects"
+              href="#project"
               className={
                 activeLink == "projects" ? "active-navbar-link" : "navbar-link"
               }
@@ -66,13 +66,9 @@ export default function NavBar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/woldeamanual-getnet-48445119b/">
                 {" "}
                 <img src={navIcon1} alt="instagram" />{" "}
-              </a>
-              <a href="#">
-                {" "}
-                <img src={navIcon2} alt="instagram" />{" "}
               </a>
               <a href="#">
                 {" "}
