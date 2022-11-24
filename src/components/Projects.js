@@ -3,6 +3,12 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import project_motherbet from "../assets/img/project_motherbet.png";
+import projectCrypto from "../assets/img/project_crypto.jpg";
+import projectBet from "../assets/img/project_bet.jpg";
+import projectMedia from "../assets/img/project_media.png";
+import projectAddweb from "../assets/img/project_addweb.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -17,27 +23,32 @@ export const Projects = () => {
     {
       title: "Media Agency",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projectMedia,
     },
     {
-      title: "Company Websites",
+      title: "Crypto Admin Dashboard",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projectCrypto,
     },
     {
       title: "Mother Bet",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: project_motherbet,
     },
     {
-      title: "Business Startup",
+      title: "College Consultancy Website",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "Company Website",
+      description: "Development",
+      imgUrl: projectAddweb,
+    },
+    {
+      title: "Kings Bet",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projectBet,
     },
   ];
 
