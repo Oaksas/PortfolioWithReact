@@ -4,6 +4,6 @@ Welcome to my Portfolio
 
 Built with
 
-React.js
-Bootstrap5
+React.js,
+Bootstrap5,
 animate.css
