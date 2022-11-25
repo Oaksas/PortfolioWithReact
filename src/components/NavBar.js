@@ -61,13 +61,16 @@ export const NavBar = () => {
                 href="https://www.linkedin.com/in/woldeamanual-getnet-48445119b/"
                 target="_blank"
               >
-                <img src={navIcon1} alt="" />
+                <img src={navIcon1} alt="Linkedin" />
               </a>
               <a
                 href="https://instagram.com/woldeamanual?igshid=MWM2YjBjM2Q="
                 target="_blank"
               >
-                <img src={navIcon3} alt="" />
+                <img src={navIcon3} alt="Instagram" />
+              </a>
+              <a href="https://github.com/Oaksas/" target="_blank">
+                <img src={navIcon2} alt="Github" />
               </a>
             </div>
             <a href="#connect">
