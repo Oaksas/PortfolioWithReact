@@ -7,6 +7,7 @@ import projectCrypto from "../assets/img/project_crypto.jpg";
 import projectBet from "../assets/img/project_bet.jpg";
 import projectMedia from "../assets/img/project_media.png";
 import projectAddweb from "../assets/img/project_addweb.png";
+import projectAI from "../assets/img/project_AI.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -50,6 +51,11 @@ export const Projects = () => {
       imgUrl: projectBet,
     },
   ];
+  const projects2 = {
+    title: "GPT-3 AI Future",
+    description: "Development",
+    imgUrl: projectAI,
+  };
 
   return (
     <section className="project" id="project">
@@ -84,7 +90,7 @@ export const Projects = () => {
                     <Tab.Content
                       id="slideInUp"
                       className={
-                        isVisible ? "animate__animated animate__slideInUp" : ""
+                        isVisible ? "animate__animated animate__flip " : ""
                       }
                     >
                       <Tab.Pane eventKey="first">
@@ -95,7 +101,7 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>Comming Soon ...</p>
+                        <ProjectCard {...projects2} />
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>Comming Soon ...</p>
