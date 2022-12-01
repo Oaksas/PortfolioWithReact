@@ -8,6 +8,7 @@ import projectBet from "../assets/img/project_bet.jpg";
 import projectMedia from "../assets/img/project_media.png";
 import projectAddweb from "../assets/img/project_addweb.png";
 import projectAI from "../assets/img/project_AI.png";
+import projectGallery from "../assets/img/project_gallery.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -51,11 +52,18 @@ export const Projects = () => {
       imgUrl: projectBet,
     },
   ];
-  const projects2 = {
-    title: "GPT-3 AI Future",
-    description: "Development",
-    imgUrl: projectAI,
-  };
+  const projects2 = [
+    {
+      title: "GPT-3 AI Future",
+      description: "Development",
+      imgUrl: projectAI,
+    },
+    {
+      title: "Digital Gallery",
+      description: "Development",
+      imgUrl: projectGallery,
+    },
+  ];
 
   return (
     <section className="project" id="project">
@@ -101,7 +109,11 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <ProjectCard {...projects2} />
+                        <Row>
+                          {projects2.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>Comming Soon ...</p>
