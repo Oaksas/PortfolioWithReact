@@ -9,6 +9,7 @@ import projectMedia from "../assets/img/project_media.png";
 import projectAddweb from "../assets/img/project_addweb.png";
 import projectAI from "../assets/img/project_AI.png";
 import projectGallery from "../assets/img/project_gallery.png";
+import projectBank from "../assets/img/project_bank.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -62,6 +63,11 @@ export const Projects = () => {
       title: "Digital Gallery",
       description: "Development",
       imgUrl: projectGallery,
+    },
+    {
+      title: "Oaksas Bank",
+      description: "Development",
+      imgUrl: projectBank,
     },
   ];
 
