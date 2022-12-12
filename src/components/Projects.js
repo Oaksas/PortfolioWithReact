@@ -10,7 +10,7 @@ import projectAddweb from "../assets/img/project_addweb.png";
 import projectAI from "../assets/img/project_AI.png";
 import projectGallery from "../assets/img/project_gallery.png";
 import projectBank from "../assets/img/project_bank.png";
-
+import projectSocialMedia from "../assets/img/project_social_media.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -68,6 +68,11 @@ export const Projects = () => {
       title: "Oaksas Bank",
       description: "Development",
       imgUrl: projectBank,
+    },
+    {
+      title: "Awuchachign Social Media",
+      description: "Development",
+      imgUrl: projectSocialMedia,
     },
   ];
 
